@@ -1,0 +1,13 @@
+C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\MyTest.rxtmg
+C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\MyTest.rxtst
+C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\MyTest.exe.config
+C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\MyTest.xml
+C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\MyTest.exe
+C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\MyTest.pdb
+C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\obj\x86\Debug\MyTest.csproj.AssemblyReference.cache
+C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\obj\x86\Debug\MyTest.csproj.CoreCompileInputs.cache
+C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\obj\x86\Debug\MyTest.csproj.Up2Date
+C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\obj\x86\Debug\MyTest.exe
+C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\obj\x86\Debug\MyTest.pdb
+C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\obj\x86\Debug\MyTest.exe.config

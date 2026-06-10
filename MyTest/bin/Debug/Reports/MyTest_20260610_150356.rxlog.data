@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="12.36s"
+		durationms="12357"
+		type="root"
+		rid="7e69e9cd2e70c9c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="CA696QE"
+		rxversion="12.7.4.0"
+		host="XW5CG51903Z2"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1200"
+		timestamp="10-06-2026 15:03:56"
+		timestampiso="2026-06-10T09:33:56"
+		endtime="10-06-2026 15:04:09"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="6.69s"
+			durationms="6693"
+			type="test-suite"
+			rid="1f3f9e4f27df92aa"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MyTest"
+			headertext="MyTest"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription=""
+			filtersuccess="True"
+			filterfailed="True"
+			filterblocked="True">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="6.6s"
+				durationms="6601"
+				type="test-case"
+				rid="2fc8d03dd602f10e"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="47f093ee-005b-4cec-851e-3cba3777ebbf"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="655ms"
+					durationms="655"
+					type="setup-container"
+					rid="3b77a8bc3862398"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="595ms"
+						durationms="595"
+						type="test-module"
+						rid="3beae6ad7aae16b"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="38c3ff66-87fc-49ea-abbb-5a7e48b84e98"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.135"
+							timeRelativeToTestModuleStartTime="00:00.012"
+							timeWallClock="15:04:02"
+							time="00:00.135"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://www.ranorex.com' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\OpenBrowser.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="5.89s"
+					durationms="5893"
+					type="test-module"
+					rid="466eb652a6941d2"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="c5eafd08-9523-447d-a49a-3f7e6ab5cc89"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Attribute 'Text' of element for item 'MyTestRepository.TestAutomationForGUITestingRanore.View1021' does not match the specified value (actual='https://www.ranorex.com', expected='https://www.ranorex.com/').
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.770"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="15:04:03"
+						time="00:00.770"
+						level="Info"
+						category="Validation"
+						errimg="images_MyTest_2_9d47055\MyTest_2_9d47055_4921f903_trace.jpg"
+						errthumb="images_MyTest_2_9d47055\MyTest_2_9d47055_4921f903_trace_thumb.jpg">
+						<message>
+							Validating AttributeEqual (Text='https://www.ranorex.com/') on item 'TestAutomationForGUITestingRanore.View1021'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Test Automation for GUI Testing']/container[@name>'Test Automation for GUI Testing']//toolbar[@automationid='view_1000']/container[@classname='LocationBarView']/text[@automationid='view_1021']"
+							itempath="container[@name>'Test Automation for GUI Testing']//toolbar[@automationid='view_1000']/container[@classname='LocationBarView']/text[@automationid='view_1021']"
+							fullname="MyTestRepository.TestAutomationForGUITestingRanore.View1021"
+							id="c71beb1160ff41c081c4665ac1dee541"
+							timeout="60000"
+							codefile="C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.419"
+						timeRelativeToTestModuleStartTime="00:05.653"
+						timeWallClock="15:04:09"
+						time="00:06.419"
+						level="Failure"
+						category="Validation"
+						errimg="images_MyTest_2_9d47055\MyTest_2_9d47055_deffb189_trace.jpg"
+						errthumb="images_MyTest_2_9d47055\MyTest_2_9d47055_deffb189_trace_thumb.jpg">
+						<message>
+							Attribute 'Text' of element for item 'MyTestRepository.TestAutomationForGUITestingRanore.View1021' does not match the specified value (actual='https://www.ranorex.com', expected='https://www.ranorex.com/').
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title>'Test Automation for GUI Testing']/container[@name>'Test Automation for GUI Testing']//toolbar[@automationid='view_1000']/container[@classname='LocationBarView']/text[@automationid='view_1021']"
+							itempath="container[@name>'Test Automation for GUI Testing']//toolbar[@automationid='view_1000']/container[@classname='LocationBarView']/text[@automationid='view_1021']"
+							fullname="MyTestRepository.TestAutomationForGUITestingRanore.View1021"
+							id="c71beb1160ff41c081c4665ac1dee541"
+							timeout="60000"
+							codefile="C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+							codeline="86"
+							loglvl="Failure"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.488"
+						timeRelativeToTestModuleStartTime="00:05.721"
+						timeWallClock="15:04:09"
+						time="00:06.488"
+						level="Error"
+						category="Module"
+						errimg="images_MyTest_2_9d47055\MyTest_2_9d47055_23677676_trace.jpg"
+						errthumb="images_MyTest_2_9d47055\MyTest_2_9d47055_23677676_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'MyTestRepository.TestAutomationForGUITestingRanore.View1021' does not match the specified value (actual='https://www.ranorex.com', expected='https://www.ranorex.com/').
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at MyTest.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs:line 86
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\CA696QE\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+							codeline="86"
+							type="repoitem"
+							path="/form[@title>'Test Automation for GUI Testing']/container[@name>'Test Automation for GUI Testing']//toolbar[@automationid='view_1000']/container[@classname='LocationBarView']/text[@automationid='view_1021']"
+							itempath="container[@name>'Test Automation for GUI Testing']//toolbar[@automationid='view_1000']/container[@classname='LocationBarView']/text[@automationid='view_1021']"
+							fullname="MyTestRepository.TestAutomationForGUITestingRanore.View1021"
+							id="c71beb1160ff41c081c4665ac1dee541"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="1">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

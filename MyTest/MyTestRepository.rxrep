@@ -1,0 +1,96 @@
+﻿<repository
+id="213721d9-4ec8-4cb4-8a06-1df944f1b6fd"
+name="MyTestRepository">
+	<codegen
+	classname="MyTestRepository"
+	namespace="MyTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="ce60b0a8-ed91-440c-b871-b0f34d19a672"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="a311bca1-afb5-4c08-b566-37ae8bd4331d"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="atag"
+			id="83655269-0d5d-4048-b2c2-2f78d026432c"
+			name="button"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']/?/?/section[2]/div/div[2]/a[@href&gt;'https://www.ranorex.com/f' and @type=null() and @class='breakdance-link button-atom button-atom--custom bde-button__button']
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="6033a74a-9ecb-4aa6-bfc1-6591e71232b2"
+		isrooted="True"
+		name="TestAutomationForGUITestingRanore"
+		refpath="/form[@title='Test Automation for GUI Testing - Ranorex and 12 more pages - Work - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation,uiautomationscrollitem,uiautomationvalue"
+			capname="text"
+			id="c71beb11-60ff-41c0-81c4-665ac1dee541"
+			name="View1021"
+			refimgid="199655ee-9668-49dc-9728-84029679ce89"
+			refpath="/form[@title>'Test Automation for GUI Testing']/container[@name>'Test Automation for GUI Testing']/container/container[@classname='EdgeBrowserFrameViewWin']/container[@classname='BrowserView']/container[@classname='TopContainerView']/toolbar[@automationid='view_1000']/container[@classname='LocationBarView']/text[@automationid='view_1021']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'Test Automation for GUI Testing']/container[@name&gt;'Test Automation for GUI Testing']//toolbar[@automationid='view_1000']/container[@classname='LocationBarView']/text[@automationid='view_1021']
+			</item>
+			<basepath>
+				/form[@title&gt;'Test Automation for GUI Testing']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALNSURBVDhPdZJpSFRhFIZvYFTjMloMRBBF0J/U
+isnGBg0qSwhLM9sIbKGFihZJi7DFFptxFhmEtjHoh1FGtBNSQXTv6BhOztx7Z3eZpNAICoJWWugJ
+p9IUe+H8+57nO+f7jiD8J9McN8QMqYcMqYvMlhBTzbbbw8+MmLnie/TiG2ZKL8mQYqS7omQ0B5jV
+6mOeV2RB4B7DmYFki5/IEt+hl14zU3pOuhRlhivEDJefzBYfhmcSi4I3KeyuZ+zE1ClDYKP4hWzx
+A1niW/TSKzJdXaTHYfWPwIvB85jFwUaKus9S2lc12EmO+A2j+JlJ5iek7LtG2oFbpO1tYPod3x+B
+SmZLO9meRywONFASs7Cxr5ydb7f8lhgffyWxvInko25STT7GW/3o7Aq6mqfoKu/GBbPdbuZ57rNE
+dVLcWc3G3r3seL0eQX/BI489KKE5LpNsjqK1dZHmiDGhLobOLn/ULNxQoat6gN79AGPbdfIVB8WR
+g6zv3s7W3nUIU+p7GXNEYdypCBpTB0mWTrT2bjQLKj/+80TCnOYb5LY5yfeepDBQwbqOTWzqWYWQ
+UKky+liIMSciaE1RcpwRNIVWEqbnHfhXYHCdJ8ddS17bIZZ5t7EmtJbSzuUIow4p3xOOhol1RQkG
+VCLhAIrsJRIODfnvbLGWXFcVi1rLKHhWykq5iJL2/M+CkFVa1g+Hg34spmrsFnO8AoqPq5cb2v4K
+jE8OkytVkNe8maVPVzPXljWwmYl+VUaV27HVmOJwvyjol+mIDO1ixBgM+oX9Ar/ipfpEVVxyvfEK
+AdWHX/GRUlJPUkHtu+FcWkHtoFzxeb6FgyqXLjpx2K08bLofh1/0xOKClJUX0K44h7boDKmFdaQu
+c5Ccu18eEHRGQz+sptMDI9hqzNgsNczZ3TiiIGl++SD8N2V7drX23241n/55ps7B5CNuEovPklLi
+HCIYzv0CslHqZx9ewoAAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
