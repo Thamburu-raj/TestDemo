@@ -97,7 +97,6 @@ namespace MyTest
         public partial class ApplicationUnderTestAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _buttonInfo;
-            RepoItemInfo _contactusInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -106,7 +105,6 @@ namespace MyTest
                     base("ApplicationUnderTest", "/dom[@domain='www.ranorex.com']", parentFolder, 30000, null, false, "a311bca1-afb5-4c08-b566-37ae8bd4331d", "")
             {
                 _buttonInfo = new RepoItemInfo(this, "button", "?/?/section[2]/div/div[2]/a[@href>'https://www.ranorex.com/f' and @type=null() and @class='breakdance-link button-atom button-atom--custom bde-button__button']", "", 30000, null, "83655269-0d5d-4048-b2c2-2f78d026432c");
-                _contactusInfo = new RepoItemInfo(this, "ContactUs", "?/?/header/div/div[1]/nav/ul/li[3]//ul/li[7]/a[@href>'https://support.ranorex.c']/?/?/span[@innertext='Contact Us']", ".//span[@innertext='Contact Us']", 30000, null, "29378a54-8ec5-41bf-9659-3d691f224f69");
             }
 
             /// <summary>
@@ -154,30 +152,6 @@ namespace MyTest
                 get
                 {
                     return _buttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ContactUs item.
-            /// </summary>
-            [RepositoryItem("29378a54-8ec5-41bf-9659-3d691f224f69")]
-            public virtual Ranorex.SpanTag ContactUs
-            {
-                get
-                {
-                    return _contactusInfo.CreateAdapter<Ranorex.SpanTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ContactUs item info.
-            /// </summary>
-            [RepositoryItemInfo("29378a54-8ec5-41bf-9659-3d691f224f69")]
-            public virtual RepoItemInfo ContactUsInfo
-            {
-                get
-                {
-                    return _contactusInfo;
                 }
             }
         }

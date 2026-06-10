@@ -2,6 +2,12 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testmodule
+			id="1fe2d093-b82d-4255-84e7-0e5b7a1db22a"
+			name="Recording2"
+			ref="2b7c5c38-2084-4aef-a757-85bd0c7e60e4"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="47f093ee-005b-4cec-851e-3cba3777ebbf"
 			name="TestCase">
@@ -97,6 +103,10 @@
 						<testmodule
 						id="ea89a19a-0920-481d-95d8-75b3be6ab885"
 						name="Recording1">
+						</testmodule>
+						<testmodule
+						id="1fe2d093-b82d-4255-84e7-0e5b7a1db22a"
+						name="Recording2">
 						</testmodule>
 						<teardown
 						id="88411da8-f69c-4504-a690-3256036c7333"

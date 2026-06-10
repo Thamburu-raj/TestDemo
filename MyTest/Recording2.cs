@@ -24,29 +24,29 @@ namespace MyTest
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Recording1 recording.
+    ///The Recording2 recording.
     /// </summary>
-    [TestModule("c5eafd08-9523-447d-a49a-3f7e6ab5cc89", ModuleType.Recording, 1)]
-    public partial class Recording1 : ITestModule
+    [TestModule("2b7c5c38-2084-4aef-a757-85bd0c7e60e4", ModuleType.Recording, 1)]
+    public partial class Recording2 : ITestModule
     {
         /// <summary>
         /// Holds an instance of the MyTestRepository repository.
         /// </summary>
         public static MyTestRepository repo = MyTestRepository.Instance;
 
-        static Recording1 instance = new Recording1();
+        static Recording2 instance = new Recording2();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Recording1()
+        public Recording2()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Recording1 Instance
+        public static Recording2 Instance
         {
             get { return instance; }
         }
@@ -79,17 +79,6 @@ namespace MyTest
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.button'", repo.ApplicationUnderTest.buttonInfo, new ActionTimeout(30000), new RecordItemIndex(0));
-            repo.ApplicationUnderTest.buttonInfo.WaitForExists(30000);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='https://www.ranorex.com') on item 'TestAutomationForGUITestingRanore.View1021'.", repo.TestAutomationForGUITestingRanore.View1021Info, new RecordItemIndex(1));
-            Validate.AttributeEqual(repo.TestAutomationForGUITestingRanore.View1021Info, "Text", "https://www.ranorex.com");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by 120 units.", new RecordItemIndex(2));
-            Mouse.ScrollWheel(120);
-            Delay.Milliseconds(300);
-            
         }
 
 #region Image Feature Data

@@ -71,6 +71,17 @@ mode="Desktop">
 				https://www.ranorex.com
 			</matchvalue>
 		</validationitem>
+		<mousewheelitem
+		delta="120"
+		duration="300ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
 	</recorditems>
 	<repository
 	id="213721d9-4ec8-4cb4-8a06-1df944f1b6fd"
